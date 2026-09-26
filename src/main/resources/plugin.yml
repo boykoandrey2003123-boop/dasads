@@ -1,0 +1,17 @@
+name: BuildBattle
+version: '1.0.0'
+main: ru.buildbattle.BuildBattlePlugin
+api-version: '1.21'
+author: Claude
+description: BuildBattle плагин с GUI, соло/дуо/трио режимами и системой оценок
+
+commands:
+  bb:
+    description: Открыть меню BuildBattle
+    usage: /bb
+    aliases: [buildbattle]
+
+permissions:
+  buildbattle.admin:
+    description: Доступ к админ-панели BuildBattle
+    default: op
